@@ -9,6 +9,7 @@ min-height: 20vh;
 width: 100vw;
 }
 
+
 h1, h2 {
 text-align: center;
 }
@@ -78,4 +79,12 @@ transition: 0.6s ease;
 li:hover {
 font-size: 1.2em;
 transition: 0.6s ease;
+}
+
+#typedtext  {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size:30px;
+  margin: 10px 50px;
+  letter-spacing: 6px;
+  font-weight: bold;
 }
