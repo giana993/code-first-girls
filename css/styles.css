@@ -6,12 +6,11 @@ margin: 20px
 
 div {
 min-height: 20vh;
-width: 100vw;
+/*width: 100vw;*/
 }
 
-
-h1, h2 {
-text-align: center;
+.sky5title {
+    color: white;
 }
 
 h1 {
@@ -23,14 +22,14 @@ font-size: 2.5em;
 }
 
 img {
-display: flex;
+/*display: flex;*/
 padding: 20px;
-margin: 0 auto;
+/*margin: 0 auto;*/
 border-radius: 130px;
 }
 
 p {
-width: 40%;
+width: 50%;
 margin: 10vh 10vw;
 font-size: 2em;
 }
@@ -87,4 +86,22 @@ transition: 0.6s ease;
   margin: 10px 50px;
   letter-spacing: 6px;
   font-weight: bold;
+}
+
+#backgroundSky5 {
+  background-image: url("../image/sky5.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 50%
+}
+
+.sky5paragraph {
+    color: white;
+}
+
+#backgroundSky4 {
+    background-image: url("../image/sky4.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%   
 }
