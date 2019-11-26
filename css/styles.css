@@ -105,3 +105,10 @@ transition: 0.6s ease;
     background-size: cover;
     background-position: 0% 50%   
 }
+
+#backgroundSky3 {
+    background-image: url("../image/sky3.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%   
+}
